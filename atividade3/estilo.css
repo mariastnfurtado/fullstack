@@ -1,0 +1,149 @@
+/*corpo do texto*/
+body {
+    background-color: lightgray;
+}
+
+.corpotexto {
+    display: flex;
+    text-align: center;
+    font-size: 20pt;
+    font-family: sans-serif;
+    color: indigo;
+}
+
+/*cabeçalho*/
+#cabecalho {
+    background-color: bisque;
+    position: relative;
+    border: solid 4px indigo;
+    width: 1500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*imagens*/
+.imagem {
+    width: 120px;
+}
+
+#imagemcss {
+    width: 100px;
+    height: 120px;
+}
+
+/*títulos*/
+.h2s {
+    font-size: 26px;
+    color: darkgreen;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+/*menu*/
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    background-color: lightskyblue;
+    height: 45px;
+    width: 1496px;
+}
+
+.link {
+    text-decoration: none;
+    color: darkred;
+}
+
+/*livros*/
+.livros {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.livro2 {
+    width: 422px;
+}
+
+.livro3 {
+    height: 520px;
+}
+
+/*iframes*/
+.iframe {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+
+#iframevid {
+    width: 300px;
+    height: 300px;
+}
+
+#iframemapa {
+    width: 300px;
+    height: 300px;
+}
+
+/*tabelas*/
+.tabela {
+    border: dashed;
+    border-color: red;
+    justify-content: center;
+}
+
+.linhacoluna1 {
+    border: solid 1px red;
+    color: red;
+}
+
+.linhacoluna {
+    border: solid 1px red;
+}
+
+table,
+tr,
+th,
+td {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+}
+
+/*sites*/
+.sites {
+    background-color: yellow;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linksite {
+    color: darkred;
+}
+
+.lista {
+    display: flex;
+    gap: 70px;
+}
+
+/*rodapé*/
+.rodape {
+    background-color: bisque;
+    position: relative;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Comic Sans MS";
+    font-size: 15pt;
+}
