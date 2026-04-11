@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+}
+.link{
+    text-decoration: none;
+    color: gray;
+}
+.cabecalho{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    border: solid 1px rgb(223, 221, 221);
+}
+.imagem{
+    width: 500px;
+    display: block;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    color: rgb(204, 204, 204);
+}
+.titulo{
+    color: rgb(253, 42, 77);
+    margin-left: 40px;
+}
+.texto1{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(253, 42, 77);
+    max-width: 480px;
+    gap: 15px;
+}
+.escrita{
+    font-weight: bold;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px;
+}
+.video{
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px
+}
+.textovideo{
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+.final{
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin: 40px;
+}
+.final1{
+    max-width: 300px;
+    color: rgb(204, 204, 204);
+}
+.final2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px;
+}
+hr{
+    border: 1px solid rgb(204, 204, 204);
+}

@@ -1,0 +1,84 @@
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+.cabecalho {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 170px;
+}
+
+#titulo {
+    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: rgba(92, 44, 5, 0.786);
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+    position: relative;
+    text-shadow: 0 0 8px rgba(165, 165, 165, 0.678);
+}
+
+.subtitulo {
+    color: rgba(92, 44, 5, 0.786);
+    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 12pt;
+}
+
+.instrucao {
+    color: rgba(199, 121, 57, 0.678);
+    display: flex;
+    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    justify-content: center;
+}
+
+.digitar {
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: rgba(192, 101, 26, 0.678);
+    box-shadow: 0 0 8px rgba(192, 101, 26, 0.678);
+    outline: none;
+}
+
+.btn {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: rgba(192, 101, 26, 0.678);
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 15px rgba(192, 101, 26, 0.678);
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
